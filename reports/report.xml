@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="6" time="0.032" timestamp="2022-02-14T11:11:06.221980" hostname="aszton"><testcase classname="tests.test_sample.TestClass" name="test_method_1_ZIT_T3" time="0.000" /><testcase classname="tests.test_sample.TestClass" name="test_method_2_ZIT_T4" time="0.000"><skipped type="pytest.skip" message="no way of currently testing this">/home/aszton/PycharmProjects/zephyr-test/tests/test_sample.py:8: no way of currently testing this</skipped></testcase><testcase classname="tests.test_sample.TestClass" name="test_method_3_ZIT_T14" time="0.000" /><testcase classname="tests.test_sample.TestClass" name="test_method" time="0.000" /><testcase classname="tests.test_sample" name="test_method_1_without_class" time="0.000" /><testcase classname="tests.test_sample" name="test_method_2_without_class_ZIT_T16" time="0.000"><failure message="assert 1 == 0">def test_method_2_without_class_ZIT_T16():
+&gt;       assert 1 == 0
+E       assert 1 == 0
+
+tests/test_sample.py:28: AssertionError</failure></testcase></testsuite></testsuites>
